@@ -1,0 +1,108 @@
+html {
+	background-color: #A4CFBE;
+}
+
+.logo1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: justify-all;
+	font-size: 4vmax;
+	line-height: 4vmax;
+	color: white;
+}
+
+.logo2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.9vmax;
+	line-height: .05vmax;
+	color: white;
+	opacity: .8;
+}
+
+main {
+	background-image: url("../images/mainbg.jpg");
+	background-color: #009BB2;
+	background-size: cover;
+	padding-top: 20px;
+}
+
+
+.logocenter {
+  	top: 10%;
+ 	transform: translateY(10%);
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+	background-color: #3E423A;
+	border: 0;
+	border-radius: 0;
+}
+
+li.active a {
+	background-color: #6C6E58 !important;
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white !important;
+}
+
+footer {
+	background-color: #181916;
+	color: #6C6E58;
+	height: 10vh;
+	line-height: 10vh;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.maintext {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.connect {
+	background-color: transparent;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #417378;
+	margin-bottom: 15vh;
+}
+
+body {
+	background-color: transparent;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.connectLogos {
+		max-height: 50px;
+		width: auto;
+		display: block;
+		margin: auto;
+}
+
+.form-control {
+	border-radius: 0px
+}
+
+.btn {
+		border-radius: 0px
+}
+
+.portTitle {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	height: 30px;
+	line-height: 30px;
+	width: 60%;
+	padding-left: 5px;
+}
+
+.portItem {
+	margin-bottom: 15px;
+}
